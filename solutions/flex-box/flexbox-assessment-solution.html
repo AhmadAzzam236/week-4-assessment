@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flexbox Assessment Solution</title>
+  <style>
+    * {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    header {
+      height: 6%;
+      background: #9d0;
+      padding: 1.5em 1em;
+
+    }
+
+    .container {
+
+      background-color: #d90;
+    }
+
+    .leftbar,
+    .rightbar {
+      background-color: #09d;
+
+    }
+
+    footer {
+      height: 4%;
+      background: #d09;
+    }
+
+    .body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* CODE AREA */
+    /* Your code starts here */
+    .container {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-grow: 1;
+    }
+
+    .content {}
+
+    .leftbar {
+      order: -1;
+    }
+
+    /*END CODE AREA */
+  </style>
+</head>
+
+<body class="body">
+  <header>
+    <p>This is the Header</p>
+  </header>
+  <div class="container">
+    <div class="content">
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat numquam eveniet labore beatae magni
+        perferendis facilis non enim, debitis accusamus minus aliquam quibusdam. Atque rerum aperiam, nostrum libero
+        quis velit!</p>
+    </div>
+    <div class="leftbar">
+      <p>I am a left-bar. correct the css to align me to the left.</p>
+    </div>
+    <div class="rightbar">
+      <p>
+        I am a right-bar. correct the css to align me to the right.
+      </p>
+    </div>
+  </div> <!-- body_container -->
+  <footer>
+    <p>This is the Footer</p>
+  </footer>
+</body>
+
+</html>
