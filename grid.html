@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grid</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+  <style>
+    *{font-family: 'Montserrat', sans-serif;}
+    body{margin: 0px; padding: 0px;}
+    .container {display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 1%;text-align: center;width: 500px;margin: 0 auto;}
+    .item {color: white;padding: 1.5em 0;font-size: 2em;}
+    h1{width:500px;margin: 0 auto;margin-top: 66px;text-align: center;margin-bottom:36px;}
+    .a {background: #0d9;grid-column: 2;grid-row: 2;}
+    .b {background: #d90;}
+    .c {background: #9d0;}
+    .d {background: #90d;}
+    .e {background: #d09;}
+    .f {background: #09d;}
+
+  </style>
+</head>
+
+<body>
+</body>
+  <h1>Grid Layout</h1>
+  <div class="container">
+    <div class="item a">A</div>
+    <div class="item b">B</div>
+    <div class="item c">C</div>
+    <div class="item d">D</div>
+    <div class="item e">E</div>
+    <div class="item f">F</div>
+  </div>
+</html>
